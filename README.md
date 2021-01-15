@@ -26,7 +26,19 @@ Criar uma interface para gestão de fornecedores, a qual o usuário poderá geri
 Abaixo segue uma tela que deve ser seguida para o cadastro e edição de um fornecedor. A tela de lista e ação
 de exclusão, devem ser implementadas conforme sua experiência em UX (User Experience).
 
-## Clone e Instalação
+## Requisitos, Clone e Instalação
+
+#### Requisitos necessários:
+
+- .net core sdk (https://dotnet.microsoft.com/download)
+
+- Serviço de Banco de Dados dependendo da sua escolha:
+
+    + SQL Server Express (https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
+
+    + ou MySQL (https://www.mysql.com/downloads/)
+
+#### Clone e Instalação
 
 Realize o [clone do repositório](https://docs.github.com/pt/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository), após concluído acesse a pasta raiz do projeto e execute `dotnet restore` para instalar as dependências.
 
