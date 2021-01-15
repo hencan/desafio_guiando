@@ -23,8 +23,6 @@ banco de dados SQL Server (Express) ou RavenDB.
 
 Criar uma interface para gestão de fornecedores, a qual o usuário poderá gerir os fornecedores para sua gestão.
 
-Abaixo segue uma tela que deve ser seguida para o cadastro e edição de um fornecedor. A tela de lista e ação
-de exclusão, devem ser implementadas conforme sua experiência em UX (User Experience).
 
 ## Requisitos, Clone e Instalação
 
