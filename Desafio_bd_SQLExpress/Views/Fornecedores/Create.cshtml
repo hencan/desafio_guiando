@@ -1,0 +1,87 @@
+@model Desafio_bd_SQLExpress.Models.Fornecedor
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Fornecedor</h4>
+<hr />
+@* <div class="row"> *@
+    @* <div class="col-md-4"> *@
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div id="imgTest" style="text-align: center;"></div>
+            <br>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                </div>
+                <div class="custom-file">
+                    <input type="file" accept="image/*" class="custom-file-input" id="inputFileToLoad" aria-describedby="inputGroupFileAddon01" onchange="encodeImageFileAsURL();" required>
+                    <label class="custom-file-label" for="inputFileToLoad">Choose file</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Logo" class="control-label">Dados da Imagem</label>
+                <input asp-for="Logo" class="form-control" id="imgBase64" required readonly/>
+                <span asp-validation-for="Logo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" required/>
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Vertical" class="control-label">Agrupamento</label>
+                @* <input asp-for="Vertical" class="form-control" /> *@
+                <select asp-for="Vertical" class="form-control" required>
+                    <option>Energia</option>
+                    <option>Água</option>
+                    <option>Telecom</option>
+                </select>
+                <span asp-validation-for="Vertical" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Link" class="control-label"></label>
+                @* <input asp-for="Link" class="form-control" /> *@
+                <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon3">URL</span>
+                </div>
+                <input asp-for="Link" class="form-control" required/>
+                </div>
+                <span asp-validation-for="Link" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <input asp-for="Historico" type="checkbox" class="form-check-input" required/>
+                <label class="form-check-label">Histórico</label>
+                <span asp-validation-for="Historico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @* <label asp-for="User_creator" class="control-label"></label> *@
+                <input asp-for="User_creator" class="form-control" value="username" readonly/>
+                <span asp-validation-for="User_creator" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    @* </div> *@
+@* </div> *@
+
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
+
+@section Scripts {
+
+    <script src="~/js/image-upload.js"></script>
+
+
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -53,17 +53,28 @@
             </div>
             <div class="form-group">
                 <label asp-for="Vertical" class="control-label">Agrupamento</label>
-                <input asp-for="Vertical" class="form-control" required/>
+                @* <input asp-for="Vertical" class="form-control" /> *@
+                <select asp-for="Vertical" class="form-control" required>
+                    <option>Energia</option>
+                    <option>Água</option>
+                    <option>Telecom</option>
+                </select>
                 <span asp-validation-for="Vertical" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Link" class="control-label"></label>
+                @* <input asp-for="Link" class="form-control" /> *@
+                <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon3">URL</span>
+                </div>
                 <input asp-for="Link" class="form-control" required/>
+                </div>
                 <span asp-validation-for="Link" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Historico" class="control-label"></label>
-                <input asp-for="Historico" class="form-control" />
+            <div class="form-group form-check">
+                <input asp-for="Historico" type="checkbox" class="form-check-input"/>
+                <label class="form-check-label">Histórico</label>
                 <span asp-validation-for="Historico" class="text-danger"></span>
             </div>
             <div class="form-group">
