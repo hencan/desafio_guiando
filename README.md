@@ -6,35 +6,25 @@
 
 ## Objetivo do Desafio
 
-### Critérios da avaliação
+#### Critérios da avaliação
 
 Será avaliado a lógica de programação, conformidade do layout, conhecimentos nas linguagens propostas,
 tratamento de falhas, padrões de projeto, testes e boas práticas de programação no geral.
 Forma de envio da avaliação
 
-
-### Informações sobre o desenvolvimento
+#### Informações sobre o desenvolvimento
 
 Linguagens: C#, ASP.NET, HTML, CSS, Vue /JavaScript/Jquery.
 Arquitetura: MVC / CQRS
 Ferramentas/Frameworks: Visual Studio, Bootstrap, Entity Framework ou NHibernate ou Dapper e
 banco de dados SQL Server (Express) ou RavenDB.
 
-#### Obs: para facilitar a entrega do banco de dados, sugerimos que envie o script de criação da base de
-dados juntamente com os dados utilizados.
-
-### Atividade do Desafio:
+#### Atividade do Desafio:
 
 Criar uma interface para gestão de fornecedores, a qual o usuário poderá gerir os fornecedores para sua gestão.
 
 Abaixo segue uma tela que deve ser seguida para o cadastro e edição de um fornecedor. A tela de lista e ação
 de exclusão, devem ser implementadas conforme sua experiência em UX (User Experience).
-
-### Instruções do Desafio:
-
-* Utilizar as seguintes Verticais para a seleção do usuário: Energia, Água e Telecom
-* Link para o login, é a URL para a tela de login do fornecedor.
-
 
 ## Clone e Instalação
 
@@ -46,7 +36,7 @@ O backend dos projetos necessitam do serviço do SQL rodando na máquina servido
 
 Será necessário configurar a conexão com o banco de dados e após a configuração realizar a atualização do banco de dados por linha de comando.
 
-### Instruções para banco SQL Express
+#### Instruções para banco SQL Express
 
 Configure a conexão pelo arquivo `appsettings.json` na pasta `Desafio_bd_SQLExpress\`.
 
@@ -56,7 +46,7 @@ Configure a conexão pelo arquivo `appsettings.json` na pasta `Desafio_bd_SQLExp
 
 Substitua as informações de user e password.
 
-### Atualização do Banco SQL Express
+#### Atualização do Banco SQL Express
 
 Verifique se a pasta `Migrations` possuem os seguintes arquivos (3):
 
@@ -68,7 +58,7 @@ Estando todos presentes execute os comandos abaixo no terminal de sua escolha, d
 
 * dotnet ef database update
 
-### Instruções para banco MySQL
+#### Instruções para banco MySQL
 
 Configure a conexão pelo arquivo `Startup.cs` na pasta `Desafio_bd_MySql\`.
 
@@ -78,7 +68,7 @@ Linha 38
 
 Substitua as informações de user e password.
 
-### Atualização do Banco MySQL
+#### Atualização do Banco MySQL
 
 Verifique se a pasta `Migrations` possuem os seguintes arquivos (3):
 
