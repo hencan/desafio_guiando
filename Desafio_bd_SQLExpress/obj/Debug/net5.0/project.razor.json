@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_MySql\\desafio_guiando.csproj",
+  "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_SQLExpress\\Desafio_bd_SQLExpress.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15600,66 +15600,66 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "desafio_guiando",
+  "RootNamespace": "Desafio_bd_SQLExpress",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_MySql\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_MySql\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_MySql\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_MySql\\Views\\Fornecedores\\Details.cshtml",
-      "TargetPath": "Views\\Fornecedores\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_MySql\\Views\\Fornecedores\\Index.cshtml",
-      "TargetPath": "Views\\Fornecedores\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_MySql\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_MySql\\Views\\Fornecedores\\Create.cshtml",
-      "TargetPath": "Views\\Fornecedores\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_MySql\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_SQLExpress\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_MySql\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_MySql\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_MySql\\Views\\Fornecedores\\Delete.cshtml",
+      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_SQLExpress\\Views\\Fornecedores\\Delete.cshtml",
       "TargetPath": "Views\\Fornecedores\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_MySql\\Views\\Fornecedores\\Edit.cshtml",
+      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_SQLExpress\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_SQLExpress\\Views\\Fornecedores\\Edit.cshtml",
       "TargetPath": "Views\\Fornecedores\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_SQLExpress\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_SQLExpress\\Views\\Fornecedores\\Details.cshtml",
+      "TargetPath": "Views\\Fornecedores\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_SQLExpress\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_SQLExpress\\Views\\Fornecedores\\Create.cshtml",
+      "TargetPath": "Views\\Fornecedores\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_SQLExpress\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_SQLExpress\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_SQLExpress\\Views\\Fornecedores\\Index.cshtml",
+      "TargetPath": "Views\\Fornecedores\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henca\\Documents\\GitHub\\desafio_guiando\\Desafio_bd_SQLExpress\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -12,10 +12,6 @@ Será avaliado a lógica de programação, conformidade do layout, conhecimentos
 tratamento de falhas, padrões de projeto, testes e boas práticas de programação no geral.
 Forma de envio da avaliação
 
-Deve-se enviar a pasta do projeto e o backup do banco de dados (.bak) no formato .zip ou .rar para o e-mail
-saulo.lima@guiando.com.br e assunto “Desafio de conhecimento - seu nome”. Caso não consiga enviar dessa
-forma, você pode subir a pasta em um drive na nuvem de sua escolha e nos enviar por e-mail o link de acesso à
-pasta.
 
 ### Informações sobre o desenvolvimento
 
@@ -24,7 +20,7 @@ Arquitetura: MVC / CQRS
 Ferramentas/Frameworks: Visual Studio, Bootstrap, Entity Framework ou NHibernate ou Dapper e
 banco de dados SQL Server (Express) ou RavenDB.
 
-> Obs: para facilitar a entrega do banco de dados, sugerimos que envie o script de criação da base de
+#### Obs: para facilitar a entrega do banco de dados, sugerimos que envie o script de criação da base de
 dados juntamente com os dados utilizados.
 
 ### Atividade do Desafio:
@@ -104,6 +100,18 @@ Execute `dotnet run` para um servidor de desenvolvimento, navegue até `http://l
 
 - Detalhar tutorial com construção da solução do zero.
 - Criar um terceiro projeto com Auth Individual.
+- Publicar no Azure para teste.
 
+## Imagens das Telas (SQL Express)
 
+![](imagens/tela01_sqlexpress.png)
 
+![](imagens/tela02_sqlexpress.png)
+
+![](imagens/tela03_sqlexpress.png)
+
+![](imagens/tela04_sqlexpress.png)
+
+![](imagens/tela05_sqlexpress.png)
+
+![](imagens/tela06_sqlexpress.png)
